@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(48, 44, 66, 1)   ;
+    color: white;
+    background-image: url(Group\ 4.png);
+    background-size: contain;
+    background-position: top -100px right -100px;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    padding:  50px 68px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-header{
+    width: 194px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    gap:144px;
+}
+.a-header{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+.button-header{
+    display: flex;
+    align-items: center;
+    gap: 36px   ;
+}        
+.button{
+    padding: 16px 36px;
+    border-radius: 40px;
+    color: rgba(52, 48, 69, 1);
+    background: linear-gradient(90deg, rgba(129,118,175,1) 0%, rgba(192,183,232,1) 100%);
+    border: none;
+}
+.baner{
+    display: flex;
+    padding:  50px 68px;
+    justify-content: space-between;
+    align-items: center;
+}
+.baner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 31%;
+    gap: 66px;
+}
+.baner-text>h2{
+    font-size: 46px;
+    font-weight: 900;
+    color: white;
+    line-height: 56px;
+}
+.text-gradient{
+    background: linear-gradient(90deg, rgba(129,118,175,1) 0%, rgba(192,183,232,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.baner-text>p{
+     font-size:16px;
+     line-height: 20px;
+}
+.earoy{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  50px 150px;
+
+
+background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+border-radius: 90px;
+
+    border-radius:90px;
+}
+.info-h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.info-article{
+    padding: 100px;
+    
+}
+.line{
+    width: 1px;
+    height: 116px;
+    background-color: rgba(192, 183, 232, 0.33);
+}
+.information-cart{
+    display: flex;
+    gap: 16px;
+}
+.about-hydra{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    align-content:space-between;
+    gap: 118px;
+}
+.thin-text{
+font-weight: 300;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.about-header{ 
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+position: relative;
+}
+.about-text{
+    width: 650px;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+gap: 52px;
+
+}
+.arrow{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+}
+.cart-img{
+    border: rgba(14, 14, 14, 0.32) 14px solid;
+    border-radius: 50%;
+}
+.line-2{
+    width: 154px;
+    height: 1px;
+    background-color: rgba(192, 183, 232, 0.33);
+}
+.advantages{
+    padding: 100px;
+}
+.advantages-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    position: relative;
+}
+.advantages-text{
+    width: 650px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;   
+}
+.advantages-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.link-header{
+    background-image: url(TECHNOLOGIES\ &\ HARDWARE.png);
+    padding: 120px 300px;
+    background-repeat: no-repeat;
+    text-align: center; 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+.link{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.vr{
+    padding: 100px;
+}
+.arrow-2{
+    left: 350px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.cart-namber{
+border: #343045 solid 20px;
+background: linear-gradient(251.27deg, #C0B7E8 12.87%, #9C92C7 56.79%, #8176AF 89.33%);
+border-radius: 50%;
+padding: 44px;
+text-align: center;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+color: #343045;
+}
+.card-vr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.cart-namber1{
+    padding: 44px 50px;
+}
+.img-vr{
+    display: flex;
+    align-items: flex-start;
+}
+/* Форма */
+.input-line{
+    display: flex;
+}
+form{
+background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;   
+padding: 106px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+width:84%;
+}
+.registration{
+    padding: 100px; 
+}
+.inputs{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: stretch;
+gap: 30px;
+width: 90%;
+}
+.form-input{
+border: 2px solid #FFFFFF;
+border-radius: 40px;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+background: none;
+padding: 22px 42px;
+width: 100%;
+}
+.input-for{
+    border: 2px solid #FFFFFF;
+border-radius: 40px;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+background: none;
+padding: 22px 42px;
+min-height: 20vh;
+max-height: 40vh;
+}
+.input-line{
+    display: flex;
+    gap: 50px;
+}
+.subject{
+    width: calc(90% + 40px);
+}
+.form-button{
+    align-self: center;
+}
+.line-3{   
+width: 414px;
+height: 1px;
+background: -webkit-linear-gradient(90deg, #343045,#c0b7e8,#8176af,#343045);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #343045,#c0b7e8,#8176af,#343045);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.footer-nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 7vw;
+    font-weight: bold;
+    font-size: 16px;
+}
+.line-4{
+width: 6px;
+height: 196px;
+background: -webkit-linear-gradient(180deg, #343045,#8176af,#c0b7e8,#8176af,#343045);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(180deg, #343045,#8176af,#c0b7e8,#8176af,#343045);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+footer{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.line-5{
+    background: -webkit-linear-gradient(90deg, #343045,#c0b7e8,#8176af,#343045);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #343045,#c0b7e8,#8176af,#343045);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+width:90vw;
+height: 1px;
+}
+.footer-end{
+    font-weight: bold;
+}
